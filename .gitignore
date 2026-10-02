@@ -1,17 +1,9 @@
-# Terraform working directory
 .terraform/
-
-# Terraform state
 *.tfstate
 *.tfstate.*
-
-# Terraform variable files
 *.tfvars
-*.tfvars.json
-
-# Terraform crash logs
+!*.tfvars.example
+tfplan
+*.tfplan
 crash.log
-crash.*.log
-
-# OS files
 .DS_Store
